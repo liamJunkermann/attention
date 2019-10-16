@@ -23,11 +23,7 @@ struct ContentView: View {
                 let session = URLSession.shared
                 let url = URL(string: "https://maker.ifttt.com/trigger/elizabethAttention/with/key/bMk1TCAtjGRas6dRqCTX52")!
                 
-                let task = session.dataTask(with: url) { data, response, error in
-                    //print(data ?? "No Data")
-                    //print(response ?? "No Response")
-                    // print(error ?? "No Error")
-                }
+                let task = session.dataTask(with: url)
                 task.resume()
  
                 self.message = "Press for Attention";
