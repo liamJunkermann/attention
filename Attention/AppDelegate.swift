@@ -16,7 +16,7 @@ import AppCenterPush
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        MSAppCenter.start("00e635de-2c18-459d-a08f-36bd6dd6c0f5", withServices:[
+        MSAppCenter.start("e77427a5-cdee-48a2-9061-42f2970916ed", withServices:[
           MSAnalytics.self,
           MSCrashes.self,
           MSPush.self
