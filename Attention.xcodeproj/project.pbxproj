@@ -15,6 +15,9 @@
 		0C7B5617235694FD0071EDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7B5615235694FD0071EDA6 /* LaunchScreen.storyboard */; };
 		0C7B5622235694FD0071EDA6 /* AttentionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B5621235694FD0071EDA6 /* AttentionTests.swift */; };
 		0C7B562D235694FD0071EDA6 /* AttentionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B562C235694FD0071EDA6 /* AttentionUITests.swift */; };
+		27A36AF86E8037D67C5521ED /* Pods_Attention.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6721D2C632D1AA65AF91ED8 /* Pods_Attention.framework */; };
+		579A95F8D967DB42E8D60667 /* Pods_AttentionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571D7204F68C14E3B305C7C4 /* Pods_AttentionTests.framework */; };
+		B7EA229186CF3B7366703B19 /* Pods_Attention_AttentionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB09BB88DDC66F36AE784F7 /* Pods_Attention_AttentionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,16 @@
 		0C7B5628235694FD0071EDA6 /* AttentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7B562C235694FD0071EDA6 /* AttentionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttentionUITests.swift; sourceTree = "<group>"; };
 		0C7B562E235694FD0071EDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7B563A235696940071EDA6 /* AttentionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AttentionRelease.entitlements; sourceTree = "<group>"; };
+		416BF3F1182D4271A1532FA5 /* Pods-Attention-AttentionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attention-AttentionUITests.release.xcconfig"; path = "Target Support Files/Pods-Attention-AttentionUITests/Pods-Attention-AttentionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		571D7204F68C14E3B305C7C4 /* Pods_AttentionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttentionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE2BBD529EC96C3A63C3010 /* Pods-Attention.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attention.release.xcconfig"; path = "Target Support Files/Pods-Attention/Pods-Attention.release.xcconfig"; sourceTree = "<group>"; };
+		675114C786E954BFB0EF33CB /* Pods-Attention-AttentionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attention-AttentionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Attention-AttentionUITests/Pods-Attention-AttentionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6784FB13F8DC631F05CD85C6 /* Pods-AttentionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttentionTests.release.xcconfig"; path = "Target Support Files/Pods-AttentionTests/Pods-AttentionTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CB09BB88DDC66F36AE784F7 /* Pods_Attention_AttentionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Attention_AttentionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8851670DF02D2BF7AC55CEF2 /* Pods-AttentionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttentionTests.debug.xcconfig"; path = "Target Support Files/Pods-AttentionTests/Pods-AttentionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99623AE5C21078CEF7BD30E8 /* Pods-Attention.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attention.debug.xcconfig"; path = "Target Support Files/Pods-Attention/Pods-Attention.debug.xcconfig"; sourceTree = "<group>"; };
+		A6721D2C632D1AA65AF91ED8 /* Pods_Attention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Attention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A36AF86E8037D67C5521ED /* Pods_Attention.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579A95F8D967DB42E8D60667 /* Pods_AttentionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EA229186CF3B7366703B19 /* Pods_Attention_AttentionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,8 @@
 				0C7B5620235694FD0071EDA6 /* AttentionTests */,
 				0C7B562B235694FD0071EDA6 /* AttentionUITests */,
 				0C7B5608235694FC0071EDA6 /* Products */,
+				8918787BD75EEDFD171E294D /* Pods */,
+				3FD837D0BAC5AECCF571894C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +117,7 @@
 		0C7B5609235694FC0071EDA6 /* Attention */ = {
 			isa = PBXGroup;
 			children = (
+				0C7B563A235696940071EDA6 /* AttentionRelease.entitlements */,
 				0C7B560A235694FC0071EDA6 /* AppDelegate.swift */,
 				0C7B560C235694FC0071EDA6 /* SceneDelegate.swift */,
 				0C7B560E235694FC0071EDA6 /* ContentView.swift */,
@@ -136,6 +155,29 @@
 			path = AttentionUITests;
 			sourceTree = "<group>";
 		};
+		3FD837D0BAC5AECCF571894C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6721D2C632D1AA65AF91ED8 /* Pods_Attention.framework */,
+				6CB09BB88DDC66F36AE784F7 /* Pods_Attention_AttentionUITests.framework */,
+				571D7204F68C14E3B305C7C4 /* Pods_AttentionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8918787BD75EEDFD171E294D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99623AE5C21078CEF7BD30E8 /* Pods-Attention.debug.xcconfig */,
+				5DE2BBD529EC96C3A63C3010 /* Pods-Attention.release.xcconfig */,
+				675114C786E954BFB0EF33CB /* Pods-Attention-AttentionUITests.debug.xcconfig */,
+				416BF3F1182D4271A1532FA5 /* Pods-Attention-AttentionUITests.release.xcconfig */,
+				8851670DF02D2BF7AC55CEF2 /* Pods-AttentionTests.debug.xcconfig */,
+				6784FB13F8DC631F05CD85C6 /* Pods-AttentionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7B5631235694FD0071EDA6 /* Build configuration list for PBXNativeTarget "Attention" */;
 			buildPhases = (
+				59EC74DB808FF5A1D2923573 /* [CP] Check Pods Manifest.lock */,
 				0C7B5603235694FC0071EDA6 /* Sources */,
 				0C7B5604235694FC0071EDA6 /* Frameworks */,
 				0C7B5605235694FC0071EDA6 /* Resources */,
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7B5634235694FD0071EDA6 /* Build configuration list for PBXNativeTarget "AttentionTests" */;
 			buildPhases = (
+				0C5A54D182BFF71CA3B243EB /* [CP] Check Pods Manifest.lock */,
 				0C7B5619235694FD0071EDA6 /* Sources */,
 				0C7B561A235694FD0071EDA6 /* Frameworks */,
 				0C7B561B235694FD0071EDA6 /* Resources */,
@@ -178,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7B5637235694FD0071EDA6 /* Build configuration list for PBXNativeTarget "AttentionUITests" */;
 			buildPhases = (
+				67D7A49C310ED17AA0EB6EC1 /* [CP] Check Pods Manifest.lock */,
 				0C7B5624235694FD0071EDA6 /* Sources */,
 				0C7B5625235694FD0071EDA6 /* Frameworks */,
 				0C7B5626235694FD0071EDA6 /* Resources */,
@@ -261,6 +306,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5A54D182BFF71CA3B243EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AttentionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59EC74DB808FF5A1D2923573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Attention-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D7A49C310ED17AA0EB6EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Attention-AttentionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C7B5603235694FC0071EDA6 /* Sources */ = {
@@ -432,9 +546,11 @@
 		};
 		0C7B5632235694FD0071EDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99623AE5C21078CEF7BD30E8 /* Pods-Attention.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Attention/Preview Content\"";
 				DEVELOPMENT_TEAM = SDL5F5UG2V;
 				ENABLE_PREVIEWS = YES;
@@ -445,16 +561,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.ljsoftwaresolutions.Attention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = attentionApp;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0C7B5633235694FD0071EDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE2BBD529EC96C3A63C3010 /* Pods-Attention.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Attention/AttentionRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Attention/Preview Content\"";
 				DEVELOPMENT_TEAM = SDL5F5UG2V;
 				ENABLE_PREVIEWS = YES;
@@ -465,13 +585,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.ljsoftwaresolutions.Attention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = attentionApp;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		0C7B5635235694FD0071EDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8851670DF02D2BF7AC55CEF2 /* Pods-AttentionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +616,7 @@
 		};
 		0C7B5636235694FD0071EDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6784FB13F8DC631F05CD85C6 /* Pods-AttentionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +639,7 @@
 		};
 		0C7B5638235694FD0071EDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675114C786E954BFB0EF33CB /* Pods-Attention-AttentionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +660,7 @@
 		};
 		0C7B5639235694FD0071EDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416BF3F1182D4271A1532FA5 /* Pods-Attention-AttentionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
